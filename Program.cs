@@ -6,7 +6,10 @@ namespace TestGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rectangle rec = new Rectangle();
+            rec.Width = 10;
+            rec.Height = 10;
+            System.Console.WriteLine(rec.CalculateArea());
         }
     }
 }

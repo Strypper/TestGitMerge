@@ -6,8 +6,10 @@ namespace TestGit
     {
         static void Main(string[] args)
         {
-            Circle c1 = new Circle();
-            System.Console.WriteLine(c1.ReturnCircleInfomation(2));
+            Car car1 = new Car();
+            car1.Brand = "Chervolet";
+            car1.Model = "Camaro 2016";
+            car1.Color = "Green";
         }
     }
 }

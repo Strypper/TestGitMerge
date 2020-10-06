@@ -6,10 +6,8 @@ namespace TestGit
     {
         static void Main(string[] args)
         {
-            Rectangle rec = new Rectangle();
-            rec.Width = 10;
-            rec.Height = 10;
-            System.Console.WriteLine(rec.CalculateArea());
+            Circle c1 = new Circle();
+            System.Console.WriteLine(c1.ReturnCircleInfomation(2));
         }
     }
 }
